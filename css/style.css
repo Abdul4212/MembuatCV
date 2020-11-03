@@ -1,0 +1,60 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color:burlywood;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.body{
+    border-top: 3px solid white;
+}
+.left{
+    float: left;
+    width: 30%;
+    height: 500px;
+    border-right: 4px solid #fff;
+    background-color: #fff8dc;
+}
+.left-wrapper{
+    padding: 15px 35px 0px 35px;
+}
+.left-header{
+    padding: 5px 5px 0 5px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 15pt;
+}
+.left-footer{
+    height: 100%;
+    padding: 5px 5px 0 5px;
+    color: white;
+    background-color: #7f461b;
+}
+.right{
+    padding-right: 20px;
+    line-height: 1.5em;
+}
+.lesson{
+    padding-top: 30px;
+}
+.lesson-wrapper{
+    padding-bottom: 20px;
+}
+.lesson-wrapper p{
+    font-size: 20pt;
+}
