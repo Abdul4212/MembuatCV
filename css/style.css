@@ -36,6 +36,10 @@ header{
     padding: 5px 5px 0 5px;
     margin-bottom: 20px;
 }
+.left-header-logo{
+    width: 100px;
+    height: auto;
+}
 h3{
     font-size: 15pt;
 }
@@ -44,6 +48,18 @@ h3{
     padding: 5px 5px 0 5px;
     color: white;
     background-color: #7f461b;
+}
+.left-footer-logo{
+    margin: 5px;
+}
+.left-footer-logo .logo{
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+.wa{
+    background-color: green;
+    border-radius: 100%;
 }
 .right{
     padding-right: 20px;
