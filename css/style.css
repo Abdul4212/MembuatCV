@@ -6,12 +6,19 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 body{
     width: 100%;
+    padding: 40px 0;
 }
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+.tubuh{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid chocolate;
 }
 header{
     background-color:burlywood;
@@ -20,17 +27,19 @@ header{
     text-align: center;
 }
 .body{
+    height: 100%;
     border-top: 3px solid white;
 }
 .left{
     float: left;
-    width: 30%;
-    height: 500px;
+    width: 40%;
+    height: 100%;
     border-right: 4px solid #fff;
     background-color: #fff8dc;
 }
 .left-wrapper{
     padding: 15px 35px 0px 35px;
+    line-height: 30px;
 }
 .left-header{
     padding: 5px 5px 0 5px;
@@ -44,7 +53,6 @@ h3{
     font-size: 15pt;
 }
 .left-footer{
-    height: 100%;
     padding: 5px 5px 0 5px;
     color: white;
     background-color: #7f461b;
@@ -62,6 +70,8 @@ h3{
     border-radius: 100%;
 }
 .right{
+    height: 100%;
+    background-color: azure;
     padding-right: 20px;
     line-height: 1.5em;
 }
